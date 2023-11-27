@@ -38,14 +38,31 @@ If the output is 1, then the led glows.
 Program:
 /*
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+
+Developed by:Girithick Rohan 
+
+RegisterNumber:  23003797
 */
 Logic symbol & Truthtable
 RTL realization
 
+Half Subtractor:
+```
+module half_sub(output b,d, input x,y);
+assign d = x^y;
+assign b = ~x&y;
+endmodule
+```
+Full Subtractor:
+```
+module full_sub(output d,b, input x,y,z);
+assign d = x^y^z;
+assign b = ~x&(y^z)|y&z;
+endmodule
+```
 ### Output:
 ### RTL
+
 ### TIMING DIAGRAM
 
 
