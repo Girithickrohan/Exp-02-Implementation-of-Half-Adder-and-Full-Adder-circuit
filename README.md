@@ -46,26 +46,52 @@ RegisterNumber:  23003797
 Logic symbol & Truthtable
 RTL realization
 
-Half Subtractor:
+Half Adder:
 ```
-module half_sub(output b,d, input x,y);
-assign d = x^y;
-assign b = ~x&y;
+module HalfAdder(A,B,sum,carry);
+input A,B;
+output sum, carry;
+xor(sum,A,B);
+and(carry, A,B);
 endmodule
 ```
-Full Subtractor:
+Full Adder:
 ```
-module full_sub(output d,b, input x,y,z);
-assign d = x^y^z;
-assign b = ~x&(y^z)|y&z;
+module FullAdder (a,b,c,Sum, Carry);
+input a,b,c;
+output Sum, Carry;
+assign Sum = ((a^b)^c);
+assign Carry = ((a&b) | (b&c) | (c&a));
 endmodule
 ```
 ### Output:
 ### RTL
 
+i)Half Adder:
+
+![image](https://raw.githubusercontent.com/Girithickrohan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/main/ha1.png)
+
+ii)Full Adder:
+
+![image]()
+
 ### TIMING DIAGRAM
 
+i)Half Adder:
+
+![image](https://raw.githubusercontent.com/Girithickrohan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/main/ha2.png)
+
+ii)Full Adder:
+
+![image]()
 
 ### TRUTH TABLE 
+i)Half Adder:
+
+![image](https://raw.githubusercontent.com/Girithickrohan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/main/ha.png)
+
+ii)Full Adder:
+
+![image]()
 
 ### Result:
