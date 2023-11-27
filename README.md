@@ -70,7 +70,6 @@ endmodule
 i)Half Adder:
 
 ![image](https://raw.githubusercontent.com/Girithickrohan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/main/ha1.png)
-
 ii)Full Adder:
 ![image](
 
