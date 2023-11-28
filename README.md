@@ -70,7 +70,9 @@ endmodule
 i)Half Adder:
 
 ![image](https://raw.githubusercontent.com/Girithickrohan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/main/ha1.png)
+
 ii)Full Adder:
+
 ![image](https://raw.githubusercontent.com/Girithickrohan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/main/fa1.png)
 
 ### TIMING DIAGRAM
@@ -93,3 +95,5 @@ ii)Full Adder:
 ![image](https://raw.githubusercontent.com/Girithickrohan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/main/fa.png)
 
 ### Result:
+Thus the half Adder and full Adder circuits are designed and the truth tables is verified using
+quartus software.
