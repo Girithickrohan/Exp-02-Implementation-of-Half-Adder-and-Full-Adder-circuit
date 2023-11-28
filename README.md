@@ -71,7 +71,7 @@ i)Half Adder:
 
 ![image](https://raw.githubusercontent.com/Girithickrohan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/main/ha1.png)
 ii)Full Adder:
-![image](
+![image](https://raw.githubusercontent.com/Girithickrohan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/main/fa1.png)
 
 ### TIMING DIAGRAM
 
@@ -81,7 +81,7 @@ i)Half Adder:
 
 ii)Full Adder:
 
-![image](
+![image](https://raw.githubusercontent.com/Girithickrohan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/main/fa2.png)
 
 ### TRUTH TABLE 
 i)Half Adder:
@@ -90,6 +90,6 @@ i)Half Adder:
 
 ii)Full Adder:
 
-![image]()
+![image](https://raw.githubusercontent.com/Girithickrohan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/main/fa.png)
 
 ### Result:
